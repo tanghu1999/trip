@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="trip-pay-web" />
-        <module name="trip-cart-web" />
+        <module name="trip-pay-interface" />
         <module name="trip-sso-web" />
         <module name="trip-manager-service" />
         <module name="trip-order-service" />
@@ -25,8 +25,8 @@
         <module name="trip-search-web" />
         <module name="trip-search-service" />
         <module name="trip-pay-service" />
+        <module name="trip-cart-web" />
         <module name="trip-manager-interface" />
-        <module name="trip-pay-interface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
