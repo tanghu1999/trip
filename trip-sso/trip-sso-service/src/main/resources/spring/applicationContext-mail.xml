@@ -1,0 +1,41 @@
+﻿<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd 
+		http://www.springframework.org/schema/mvc 
+		http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd 
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context-3.2.xsd 
+		http://www.springframework.org/schema/aop 
+		http://www.springframework.org/schema/aop/spring-aop-3.2.xsd 
+		http://www.springframework.org/schema/tx 
+		http://www.springframework.org/schema/tx/spring-tx-3.2.xsd ">
+
+	<!-- spring来发送java邮件 -->
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<!-- 邮件发送服务器(使用qq邮件服务器) 不同服务器只用改smtp后面的即可 如：smtp.163.com-->
+		<property name="host" value="smtp.qq.com" />
+		<!-- 用来发送邮件的名字 -->
+		<property name="username" value="1621037507" />
+		<!-- 授权码（不用去记，每次需要的时候可以重新生成） -->
+		<property name="password" value="ienbaeanruibcfbc" />
+		<!-- 邮件发送的协议 -->
+		<property name="protocol" value="smtp" />
+		<property name="javaMailProperties">
+			<map>
+				<!-- 是否认证 -->
+				<entry key="mail.smtp.auth" value="true" />
+				<!-- 启用SSL [外发邮件需要设置] -->
+				<entry key="mail.smtp.ssl.enable" value="true" />
+				<!-- [外发邮件需要设置] -->
+				<entry key="mail.smtp.ssl.socketFactory">
+					<bean class="com.sun.mail.util.MailSSLSocketFactory">
+						<property name="trustAllHosts" value="true" />
+					</bean>
+				</entry>
+			</map>
+		</property>
+	</bean>
+</beans>

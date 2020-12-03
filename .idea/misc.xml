@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/trip-cart-web" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-content-web" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-item-web" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-manager/trip-manager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-order-web" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-order/trip-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-pay" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-pay-web" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-sso-web" />
+    <file type="web" url="file://$PROJECT_DIR$/trip-sso/trip-sso-service" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

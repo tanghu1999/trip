@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="trip-pay-web" />
+        <module name="trip-cart-web" />
+        <module name="trip-sso-web" />
+        <module name="trip-manager-service" />
+        <module name="trip-order-service" />
+        <module name="trip-order-interface" />
+        <module name="trip-manager-web" />
+        <module name="trip-manager-utils" />
+        <module name="trip-sso-interface" />
+        <module name="trip-manager-pojo" />
+        <module name="trip-content-web" />
+        <module name="trip-sso-service" />
+        <module name="trip-item-web" />
+        <module name="trip-search-interface" />
+        <module name="trip-order-web" />
+        <module name="trip-manager-dao" />
+        <module name="trip-search-web" />
+        <module name="trip-search-service" />
+        <module name="trip-pay-service" />
+        <module name="trip-manager-interface" />
+        <module name="trip-pay-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="trip-interface" target="1.7" />
+      <module name="trip-service" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

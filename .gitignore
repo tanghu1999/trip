@@ -1,0 +1,22 @@
+# Project exclude paths
+/trip-cart-web/target/
+/trip-content-web/target/
+/trip-item-web/target/
+/trip-manager/trip-manager-dao/target/
+/trip-manager/trip-manager-interface/target/
+/trip-manager/trip-manager-pojo/target/
+/trip-manager/trip-manager-service/target/
+/trip-manager/trip-manager-utils/target/
+/trip-manager-web/target/
+/trip-order/trip-order-interface/target/
+/trip-order/trip-order-service/target/
+/trip-order-web/target/
+/trip-pay/trip-pay-interface/target/
+/trip-pay/trip-pay-service/target/
+/trip-pay-web/target/
+/trip-search/trip-search-interface/target/
+/trip-search-service/target/
+/trip-search-web/target/
+/trip-sso/trip-sso-interface/target/
+/trip-sso/trip-sso-service/target/
+/trip-sso-web/target/
